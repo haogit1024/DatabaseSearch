@@ -1,6 +1,8 @@
 module com.czh.databasesearch {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.sql;
+    requires org.apache.commons.lang3;
 
 
     opens com.czh.database.search to javafx.fxml;
